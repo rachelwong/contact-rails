@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+body {
+	background: #a4dbd9;
+	background-image: image-url("cottage-country-aerial.jpg");
+	background-size: cover;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.mailForm {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
